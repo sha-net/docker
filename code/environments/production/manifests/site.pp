@@ -7,7 +7,7 @@ node default {
   }
 }
 
-node 'puppet-on-docker.ec2.internal' {
+node 'HOSTNAME' {
  $a = hiera('test')
  notify { "$a": }
 }
