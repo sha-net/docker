@@ -3,7 +3,7 @@ version: '2'
 services:
   puppet:
     container_name: puppet
-    hostname: puppetondocker-shavit
+    hostname: puppet-on-docker
     image: puppet/puppetserver
     ports:
       - "8140:8140"
