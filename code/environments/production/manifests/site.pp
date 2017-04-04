@@ -7,7 +7,7 @@ node default {
   }
 }
 
-node 'puppetondocker-shavit.ec2.internal' {
+node 'puppet-on-docker.ec2.internal' {
  $a = hiera('test')
  notify { "$a": }
 }
