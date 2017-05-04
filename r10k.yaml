@@ -1,0 +1,7 @@
+:cachedir: '/var/cache/r10k'
+git:
+  provider: shellgit # one of shellgit, rugged
+:sources:
+  :environment:
+    remote: 'git@github.com:privatecloudenvlocation/environments.git'
+    basedir: '/root/puppet-on-docker/code/environments'
