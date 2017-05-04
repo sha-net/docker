@@ -6,8 +6,6 @@
   - "clouds/%{::cloud}"
   - "services/%{::service}"
   - "datacenters/%{::dc}"
-  - "environments/%{::env}"
-  - "datacenters-environments/%{::dc_env}"
   - common
 
 :yaml:
