@@ -6,8 +6,3 @@ node default {
     content => 'This file is for demonstration purposes only',
   }
 }
-
-node 'HOSTNAME' {
- $a = hiera('test')
- notify { "$a": }
-}
